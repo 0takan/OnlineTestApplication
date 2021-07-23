@@ -162,3 +162,4 @@ D:\TestApplication\TestApplication\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_
 D:\TestApplication\TestApplication\obj\Debug\net5.0\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
 D:\TestApplication\TestApplication\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_AuthLayout.cshtml.g.cs
 D:\TestApplication\TestApplication\obj\Debug\net5.0\TestApplication.csproj.AssemblyReference.cache
+D:\TestApplication\TestApplication\bin\Debug\net5.0\libman.json
