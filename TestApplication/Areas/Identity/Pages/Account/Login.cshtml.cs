@@ -57,6 +57,15 @@ namespace TestApplication.Areas.Identity.Pages.Account
 
         public async Task OnGetAsync(string returnUrl = null)
         {
+            if (User.Identity.IsAuthenticated)
+            {
+                Response.Redirect("/Home");
+              
+            }
+            //if (!User.Identity.IsAuthenticated == false)
+            //{
+            //    Response.Redirect("/");
+            //}
             if (!string.IsNullOrEmpty(ErrorMessage))
             {
                 ModelState.AddModelError(string.Empty, ErrorMessage);
@@ -69,7 +78,9 @@ namespace TestApplication.Areas.Identity.Pages.Account
 
             ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
 
-            ReturnUrl = returnUrl;
+           
+           ReturnUrl = returnUrl;
+           
         }
 
         public async Task<IActionResult> OnPostAsync(string returnUrl = null)

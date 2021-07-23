@@ -1,17 +1,18 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using System;
 using System.Diagnostics;
 using TestApplication.Models;
 
 namespace TestApplication.Controllers
 {
-    
-    public class HomeController : Controller
+    [Authorize]
+    public class AuthController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private readonly ILogger<AuthController> _logger;
 
-        public HomeController(ILogger<HomeController> logger)
+        public AuthController(ILogger<AuthController> logger)
         {
             _logger = logger;
         }
