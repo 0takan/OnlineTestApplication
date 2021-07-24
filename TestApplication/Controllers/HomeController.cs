@@ -1,7 +1,10 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using System.Collections.Generic;
 using System.Diagnostics;
+using TestApplication.Areas.Identity.Data;
+using TestApplication.Data;
 using TestApplication.Models;
 
 namespace TestApplication.Controllers
@@ -11,6 +14,7 @@ namespace TestApplication.Controllers
     {
         private readonly ILogger<HomeController> _logger;
 
+        List<Cards> cards;
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;

@@ -9,8 +9,12 @@ using TestApplication.Areas.Identity.Data;
 
 namespace TestApplication.Data
 {
+
+
     public class AuthDbContext : IdentityDbContext<ApplicationUser>
     {
+        public DbSet<Cards> Cards { get; set; }
+
         public AuthDbContext(DbContextOptions<AuthDbContext> options)
             : base(options)
         {
@@ -24,6 +28,5 @@ namespace TestApplication.Data
             // Add your customizations after calling base.OnModelCreating(builder);
         }
 
-        public DbSet<Cards> Cards { get; set; }
     }
 }

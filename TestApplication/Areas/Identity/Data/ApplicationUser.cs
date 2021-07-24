@@ -21,8 +21,6 @@ namespace TestApplication.Areas.Identity.Data
     }
     public class Cards 
     {
-
-
         public int Id { get; set; }
         [Column(TypeName = "nvarchar(100)")]
         public string test_name { get; set; }
