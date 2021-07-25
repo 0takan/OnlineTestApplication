@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "LdNVkV6PR532NncKgeSpNhceRlvB5kENUUqJnucbNGwuikFVvbfuTxAsafWi7x52V4vOqnaGW2evs/9w/BZ76Q==",
+  "dgSpecHash": "ISgg8GQlwbWq7Z+lNX9GOnfMEDKxw1xjBJQuEFvt9t9f2wp6VyrHihh6b3jJZnVQgJrghsuuHJeE6JS3dWybAw==",
   "success": true,
   "projectFilePath": "D:\\TestApplication\\TestApplication\\TestApplication.csproj",
   "expectedPackageFiles": [
@@ -118,6 +118,7 @@
     "C:\\Users\\hordi\\.nuget\\packages\\runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\hordi\\.nuget\\packages\\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\hordi\\.nuget\\packages\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
+    "C:\\Users\\hordi\\.nuget\\packages\\servicestack.interfaces\\5.11.0\\servicestack.interfaces.5.11.0.nupkg.sha512",
     "C:\\Users\\hordi\\.nuget\\packages\\system.appcontext\\4.3.0\\system.appcontext.4.3.0.nupkg.sha512",
     "C:\\Users\\hordi\\.nuget\\packages\\system.buffers\\4.3.0\\system.buffers.4.3.0.nupkg.sha512",
     "C:\\Users\\hordi\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",

@@ -6,11 +6,11 @@ using TestApplication.Interfaces;
 
 namespace TestApplication
 {
-    public class Cards : ICards
+    public class AllCards : ICards
     {
-        public IEnumerable<Cards> AllCards { get ;}
+        public IEnumerable<AllCards> _AllCards { get ;}
 
-        public Cards getObjectCards(int carId)
+        public AllCards getObjectCards(int carId)
         {
             throw new NotImplementedException();
         }

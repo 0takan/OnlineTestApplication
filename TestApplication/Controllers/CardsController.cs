@@ -17,7 +17,7 @@ namespace TestApplication.Controllers
         }
         public ViewResult Index()
         {
-            var cards = _cards.AllCards;
+            var cards = _cards._AllCards;
             return View(cards);
         }
     }

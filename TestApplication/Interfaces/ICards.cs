@@ -7,7 +7,7 @@ namespace TestApplication.Interfaces
 {
     public interface ICards
     {
-        IEnumerable<Cards> AllCards { get; }
-        Cards getObjectCards(int carId);
+        IEnumerable<AllCards> _AllCards { get; }
+        AllCards getObjectCards(int carId);
     }
 }

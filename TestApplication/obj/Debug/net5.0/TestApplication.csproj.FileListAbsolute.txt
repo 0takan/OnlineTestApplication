@@ -170,3 +170,4 @@ D:\TestApplication\TestApplication\bin\Debug\net5.0\Microsoft.DotNet.PlatformAbs
 D:\TestApplication\TestApplication\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
 D:\TestApplication\TestApplication\bin\Debug\net5.0\Microsoft.Extensions.PlatformAbstractions.dll
 D:\TestApplication\TestApplication\bin\Debug\net5.0\Mvc.Grid.Core.dll
+D:\TestApplication\TestApplication\bin\Debug\net5.0\ServiceStack.Interfaces.dll

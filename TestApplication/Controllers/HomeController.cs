@@ -14,7 +14,6 @@ namespace TestApplication.Controllers
     {
         private readonly ILogger<HomeController> _logger;
 
-        List<Cards> cards;
         public HomeController(ILogger<HomeController> logger)
         {
 

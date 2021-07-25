@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using TestApplication.Areas.Identity.Data;
+using TestApplication.Models;
 
 namespace TestApplication.Data
 {
