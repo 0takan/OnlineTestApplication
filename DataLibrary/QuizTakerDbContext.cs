@@ -7,8 +7,13 @@ using System.Threading.Tasks;
 
 namespace DataLibrary
 {
-    class QuizTakerDbContext: DbContext
+    public class QuizTakerDbContext : DbContext
     {
+        public QuizTakerDbContext(DbContextOptions<QuizTakerDbContext> options)
+        : base(options)
+        {
+        }
 
+        public DbSet<Quiz> Quizzes { get; set; }
     }
 }

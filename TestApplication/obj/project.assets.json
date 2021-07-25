@@ -11175,9 +11175,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\OnlineTestApplication\\TestApplication\\TestApplication.csproj",
-      "projectName": "TestApplication",
-      "projectPath": "D:\\OnlineTestApplication\\TestApplication\\TestApplication.csproj",
+      "projectUniqueName": "D:\\OnlineTestApplication\\TestApplication\\QuizApplication.csproj",
+      "projectName": "QuizApplication",
+      "projectPath": "D:\\OnlineTestApplication\\TestApplication\\QuizApplication.csproj",
       "packagesPath": "C:\\Users\\hordi\\.nuget\\packages\\",
       "outputPath": "D:\\OnlineTestApplication\\TestApplication\\obj\\",
       "projectStyle": "PackageReference",
