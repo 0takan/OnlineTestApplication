@@ -8,6 +8,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using TestApplication.Interfaces;
 
 namespace TestApplication
 {
@@ -23,6 +24,7 @@ namespace TestApplication
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddTransient<ICards, Cards>();
             services.AddControllersWithViews();
             services.AddRazorPages();
             services.AddCoreAdmin();
@@ -37,7 +39,7 @@ namespace TestApplication
             }
             else
             {
-                app.UseExceptionHandler("/Home/Error");
+                app.UseExceptionHandler("/Auth/Error");
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
