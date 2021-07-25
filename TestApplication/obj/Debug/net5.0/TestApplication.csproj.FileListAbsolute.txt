@@ -345,3 +345,5 @@ D:\OnlineTestApplication\TestApplication\obj\Debug\net5.0\TestApplication.Views.
 D:\OnlineTestApplication\TestApplication\obj\Debug\net5.0\TestApplication.csproj.CopyComplete
 D:\OnlineTestApplication\TestApplication\obj\Debug\net5.0\TestApplication.genruntimeconfig.cache
 D:\OnlineTestApplication\TestApplication\obj\Debug\net5.0\TestApplication.csproj.AssemblyReference.cache
+D:\OnlineTestApplication\TestApplication\bin\Debug\net5.0\QuizDataLibrary.dll
+D:\OnlineTestApplication\TestApplication\bin\Debug\net5.0\QuizDataLibrary.pdb

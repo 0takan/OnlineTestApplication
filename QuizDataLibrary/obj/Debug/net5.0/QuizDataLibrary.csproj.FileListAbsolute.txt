@@ -1,0 +1,15 @@
+D:\OnlineTestApplication\QuizDataLibrary\bin\Debug\net5.0\QuizDataLibrary.deps.json
+D:\OnlineTestApplication\QuizDataLibrary\bin\Debug\net5.0\QuizDataLibrary.dll
+D:\OnlineTestApplication\QuizDataLibrary\bin\Debug\net5.0\ref\QuizDataLibrary.dll
+D:\OnlineTestApplication\QuizDataLibrary\bin\Debug\net5.0\QuizDataLibrary.pdb
+D:\OnlineTestApplication\QuizDataLibrary\obj\Debug\net5.0\QuizDataLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\OnlineTestApplication\QuizDataLibrary\obj\Debug\net5.0\QuizDataLibrary.AssemblyInfoInputs.cache
+D:\OnlineTestApplication\QuizDataLibrary\obj\Debug\net5.0\QuizDataLibrary.AssemblyInfo.cs
+D:\OnlineTestApplication\QuizDataLibrary\obj\Debug\net5.0\QuizDataLibrary.csproj.CoreCompileInputs.cache
+D:\OnlineTestApplication\QuizDataLibrary\obj\Debug\net5.0\QuizDataLibrary.dll
+D:\OnlineTestApplication\QuizDataLibrary\obj\Debug\net5.0\ref\QuizDataLibrary.dll
+D:\OnlineTestApplication\QuizDataLibrary\obj\Debug\net5.0\QuizDataLibrary.pdb
+D:\OnlineTestApplication\QuizDataLibrary\bin\Debug\net5.0\QuizDataLibrary.runtimeconfig.json
+D:\OnlineTestApplication\QuizDataLibrary\bin\Debug\net5.0\QuizDataLibrary.runtimeconfig.dev.json
+D:\OnlineTestApplication\QuizDataLibrary\obj\Debug\net5.0\QuizDataLibrary.genruntimeconfig.cache
+D:\OnlineTestApplication\QuizDataLibrary\obj\Debug\net5.0\QuizDataLibrary.csproj.AssemblyReference.cache

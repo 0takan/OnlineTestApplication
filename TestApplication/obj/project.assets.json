@@ -3748,6 +3748,20 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "QuizDataLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.8",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.8"
+        },
+        "compile": {
+          "bin/placeholder/QuizDataLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/QuizDataLibrary.dll": {}
+        }
       }
     }
   },
@@ -11153,6 +11167,11 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "QuizDataLibrary/1.0.0": {
+      "type": "project",
+      "path": "../QuizDataLibrary/QuizDataLibrary.csproj",
+      "msbuildProject": "../QuizDataLibrary/QuizDataLibrary.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -11164,6 +11183,7 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.8",
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.8",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 5.0.2",
+      "QuizDataLibrary >= 1.0.0",
       "ServiceStack.Interfaces >= 5.11.0",
       "bootstrap >= 5.0.2"
     ]
@@ -11199,7 +11219,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\OnlineTestApplication\\QuizDataLibrary\\QuizDataLibrary.csproj": {
+              "projectPath": "D:\\OnlineTestApplication\\QuizDataLibrary\\QuizDataLibrary.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

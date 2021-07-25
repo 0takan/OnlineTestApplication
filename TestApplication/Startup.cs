@@ -1,13 +1,17 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using QuizDataLibrary;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using TestApplication.Areas.Identity.Data;
+using TestApplication.Data;
 
 namespace TestApplication
 {
@@ -23,9 +27,19 @@ namespace TestApplication
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddDbContext<QuizTakerDbContext>(options =>
+                            options.UseSqlServer(Configuration.GetConnectionString("AuthDbContextConnection")));
+            services.AddDbContext<AuthDbContext>(options =>
+                options.UseSqlServer(Configuration.GetConnectionString("AuthDbContextConnection")));
             services.AddControllersWithViews();
             services.AddRazorPages();
             services.AddCoreAdmin();
+            services.AddDefaultIdentity<ApplicationUser>(options => {
+                options.Password.RequireLowercase = false;
+                options.Password.RequireUppercase = false;
+                options.SignIn.RequireConfirmedAccount = false;
+            })
+               .AddEntityFrameworkStores<AuthDbContext>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
