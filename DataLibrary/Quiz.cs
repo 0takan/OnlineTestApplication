@@ -3,17 +3,17 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace DataLibrary
 {
-    public class Quizzes
+    public class Quiz
     {
-        public int CardsId { get; set; }
+        public int QuizId { get; set; }
 
         [Column(TypeName = "nvarchar(100)")]
         public string QuizName { get; set; }
 
         [Column(TypeName = "nvarchar(100)")]
-        public string img { get; set; }
+        public string QuizImg { get; set; }
 
         [Column(TypeName = "nvarchar(500)")]
-        public string descrition { get; set; }
+        public string Description { get; set; }
     }
 }

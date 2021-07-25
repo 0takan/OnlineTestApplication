@@ -9,3 +9,4 @@ D:\OnlineTestApplication\DataLibrary\obj\Debug\net5.0\DataLibrary.csproj.CoreCom
 D:\OnlineTestApplication\DataLibrary\obj\Debug\net5.0\DataLibrary.dll
 D:\OnlineTestApplication\DataLibrary\obj\Debug\net5.0\ref\DataLibrary.dll
 D:\OnlineTestApplication\DataLibrary\obj\Debug\net5.0\DataLibrary.pdb
+D:\OnlineTestApplication\DataLibrary\obj\Debug\net5.0\DataLibrary.csproj.AssemblyReference.cache
