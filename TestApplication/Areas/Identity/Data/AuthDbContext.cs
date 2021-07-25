@@ -14,7 +14,6 @@ namespace TestApplication.Data
 
     public class AuthDbContext : IdentityDbContext<ApplicationUser>
     {
-        public DbSet<Cards> Cards { get; set; }
 
         public AuthDbContext(DbContextOptions<AuthDbContext> options)
             : base(options)

@@ -1,6 +1,7 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using System;
+using System.ComponentModel.DataAnnotations.Schema;
 
-namespace TestApplication.Models
+namespace DataLibrary
 {
     public class Cards
     {

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ISgg8GQlwbWq7Z+lNX9GOnfMEDKxw1xjBJQuEFvt9t9f2wp6VyrHihh6b3jJZnVQgJrghsuuHJeE6JS3dWybAw==",
+  "dgSpecHash": "ZKV5oxCSYtKkonxDhKoZynKH75eDWnMEqdzAFSJpzCYZXBQ96uBvQGxm1zdoTrfFdpxGCx3C/92HinS9Rr5CVA==",
   "success": true,
-  "projectFilePath": "D:\\TestApplication\\TestApplication\\TestApplication.csproj",
+  "projectFilePath": "D:\\OnlineTestApplication\\TestApplication\\TestApplication.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hordi\\.nuget\\packages\\bootstrap\\5.0.2\\bootstrap.5.0.2.nupkg.sha512",
     "C:\\Users\\hordi\\.nuget\\packages\\coreadmin\\1.5.0\\coreadmin.1.5.0.nupkg.sha512",

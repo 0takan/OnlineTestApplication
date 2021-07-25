@@ -11175,11 +11175,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\TestApplication\\TestApplication\\TestApplication.csproj",
+      "projectUniqueName": "D:\\OnlineTestApplication\\TestApplication\\TestApplication.csproj",
       "projectName": "TestApplication",
-      "projectPath": "D:\\TestApplication\\TestApplication\\TestApplication.csproj",
+      "projectPath": "D:\\OnlineTestApplication\\TestApplication\\TestApplication.csproj",
       "packagesPath": "C:\\Users\\hordi\\.nuget\\packages\\",
-      "outputPath": "D:\\TestApplication\\TestApplication\\obj\\",
+      "outputPath": "D:\\OnlineTestApplication\\TestApplication\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
