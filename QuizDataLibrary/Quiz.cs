@@ -9,6 +9,10 @@ namespace QuizDataLibrary
 {
     public class Quiz
     {
+        public Quiz()
+        {
+            Questions = new List<Question>();
+        }
         public int QuizId { get; set; }
 
         [Column(TypeName = "nvarchar(100)")]
@@ -19,5 +23,7 @@ namespace QuizDataLibrary
 
         [Column(TypeName = "nvarchar(500)")]
         public string Description { get; set; }
+        public List<Question> Questions { get; set; }
+
     }
 }
