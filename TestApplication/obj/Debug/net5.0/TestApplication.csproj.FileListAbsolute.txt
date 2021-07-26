@@ -347,3 +347,4 @@ D:\OnlineTestApplication\TestApplication\obj\Debug\net5.0\TestApplication.genrun
 D:\OnlineTestApplication\TestApplication\obj\Debug\net5.0\TestApplication.csproj.AssemblyReference.cache
 D:\OnlineTestApplication\TestApplication\bin\Debug\net5.0\QuizDataLibrary.dll
 D:\OnlineTestApplication\TestApplication\bin\Debug\net5.0\QuizDataLibrary.pdb
+D:\OnlineTestApplication\TestApplication\obj\Debug\net5.0\Razor\Views\Quiz\Index.cshtml.g.cs

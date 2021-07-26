@@ -8,7 +8,12 @@ namespace QuizDataLibrary
 {
     public class AnswerRepoEf : IAnswer
     {
-        private readonly QuizTakerDbContext _dbcontext;
+        protected readonly QuizTakerDbContext _dbcontext;
+
+        public AnswerRepoEf(QuizTakerDbContext dbContext)
+        {
+            _dbcontext = dbContext;
+        }
         public List<Answer> GetAllAnswer()
         {
             return _dbcontext.Answers

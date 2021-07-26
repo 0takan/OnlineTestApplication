@@ -14,8 +14,8 @@ namespace QuizDataLibrary
         {
 
         }
-        public DbSet<Answer> Answers { get; set; }
-        public DbSet<Question> Questions { get; set; }
-        public DbSet<Quiz> Quizzes { get; set; }
+        internal DbSet<Answer> Answers { get; set; }
+        internal DbSet<Question> Questions { get; set; }
+        internal DbSet<Quiz> Quizzes { get; set; }
     }
 }

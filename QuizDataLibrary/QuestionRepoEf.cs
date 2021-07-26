@@ -9,6 +9,10 @@ namespace QuizDataLibrary
     public class QuestionRepoEf : IQuestion
     {
         protected readonly QuizTakerDbContext _dbContext;
+        public QuestionRepoEf(QuizTakerDbContext dbContext)
+        {
+            _dbContext = dbContext;
+        }
         public Question GetById(int id)
         {
             return ListAllQuestions()

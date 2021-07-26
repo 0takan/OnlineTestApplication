@@ -34,12 +34,19 @@ namespace TestApplication
             services.AddControllersWithViews();
             services.AddRazorPages();
             services.AddCoreAdmin();
-            services.AddDefaultIdentity<ApplicationUser>(options => {
+            services.AddDefaultIdentity<ApplicationUser>(options =>
+            {
                 options.Password.RequireLowercase = false;
                 options.Password.RequireUppercase = false;
                 options.SignIn.RequireConfirmedAccount = false;
             })
-               .AddEntityFrameworkStores<AuthDbContext>();
+               .AddEntityFrameworkStores<AuthDbContext>()
+               .AddEntityFrameworkStores<QuizTakerDbContext>();
+            
+            // Add application services.
+            services.AddScoped<IQuiz, QuizRepoEf>();
+            services.AddScoped<IAnswer, AnswerRepoEf>();
+            services.AddScoped<IQuestion, QuestionRepoEf>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
