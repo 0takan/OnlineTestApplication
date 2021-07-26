@@ -3,14 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TestApplication.Areas.Identity.Data;
+using TestApplication.Data;
 
 namespace QuizDataLibrary
 {
     public class QuizRepoEf : IQuiz
     {
-        protected readonly QuizTakerDbContext _dbContext;
+        protected readonly AuthDbContext _dbContext;
 
-        public QuizRepoEf(QuizTakerDbContext dbContext)
+        public QuizRepoEf(AuthDbContext dbContext)
         {
             _dbContext = dbContext;
         }

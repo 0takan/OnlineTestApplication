@@ -19,8 +19,4 @@
     <PackageReference Include="ServiceStack.Interfaces" Version="5.11.0" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\QuizDataLibrary\QuizDataLibrary.csproj" />
-  </ItemGroup>
-
 </Project>

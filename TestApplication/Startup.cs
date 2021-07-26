@@ -27,8 +27,6 @@ namespace TestApplication
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<QuizTakerDbContext>(options =>
-                            options.UseSqlServer(Configuration.GetConnectionString("AuthDbContextConnection")));
             services.AddDbContext<AuthDbContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("AuthDbContextConnection")));
             services.AddControllersWithViews();
@@ -38,8 +36,7 @@ namespace TestApplication
                 options.Password.RequireUppercase = false;
                 options.SignIn.RequireConfirmedAccount = false;
             })
-               .AddEntityFrameworkStores<AuthDbContext>()
-               .AddEntityFrameworkStores<QuizTakerDbContext>();
+               .AddEntityFrameworkStores<AuthDbContext>();
             
             // Add application services.
             services.AddScoped<IQuiz, QuizRepoEf>();

@@ -13,3 +13,17 @@ D:\OnlineTestApplication\QuizDataLibrary\bin\Debug\net5.0\QuizDataLibrary.runtim
 D:\OnlineTestApplication\QuizDataLibrary\bin\Debug\net5.0\QuizDataLibrary.runtimeconfig.dev.json
 D:\OnlineTestApplication\QuizDataLibrary\obj\Debug\net5.0\QuizDataLibrary.genruntimeconfig.cache
 D:\OnlineTestApplication\QuizDataLibrary\obj\Debug\net5.0\QuizDataLibrary.csproj.AssemblyReference.cache
+D:\1\OnlineTestApplication\QuizDataLibrary\bin\Debug\net5.0\QuizDataLibrary.deps.json
+D:\1\OnlineTestApplication\QuizDataLibrary\bin\Debug\net5.0\QuizDataLibrary.runtimeconfig.json
+D:\1\OnlineTestApplication\QuizDataLibrary\bin\Debug\net5.0\QuizDataLibrary.runtimeconfig.dev.json
+D:\1\OnlineTestApplication\QuizDataLibrary\bin\Debug\net5.0\QuizDataLibrary.dll
+D:\1\OnlineTestApplication\QuizDataLibrary\bin\Debug\net5.0\ref\QuizDataLibrary.dll
+D:\1\OnlineTestApplication\QuizDataLibrary\bin\Debug\net5.0\QuizDataLibrary.pdb
+D:\1\OnlineTestApplication\QuizDataLibrary\obj\Debug\net5.0\QuizDataLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\1\OnlineTestApplication\QuizDataLibrary\obj\Debug\net5.0\QuizDataLibrary.AssemblyInfoInputs.cache
+D:\1\OnlineTestApplication\QuizDataLibrary\obj\Debug\net5.0\QuizDataLibrary.AssemblyInfo.cs
+D:\1\OnlineTestApplication\QuizDataLibrary\obj\Debug\net5.0\QuizDataLibrary.csproj.CoreCompileInputs.cache
+D:\1\OnlineTestApplication\QuizDataLibrary\obj\Debug\net5.0\QuizDataLibrary.dll
+D:\1\OnlineTestApplication\QuizDataLibrary\obj\Debug\net5.0\ref\QuizDataLibrary.dll
+D:\1\OnlineTestApplication\QuizDataLibrary\obj\Debug\net5.0\QuizDataLibrary.pdb
+D:\1\OnlineTestApplication\QuizDataLibrary\obj\Debug\net5.0\QuizDataLibrary.genruntimeconfig.cache
