@@ -39,7 +39,7 @@ namespace TestApplication.Areas.Identity.Data
         public string QuizName { get; set; }
 
         [Column(TypeName = "nvarchar(100)")]
-        public string QuizImg { get; set; }
+        public string ShortDescription { get; set; }
 
         [Column(TypeName = "nvarchar(500)")]
         public string Description { get; set; }
