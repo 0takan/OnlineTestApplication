@@ -32,8 +32,6 @@ namespace TestApplication
             services.AddDbContext<AuthDbContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("AuthDbContextConnection")));
             services.AddControllersWithViews();
-            services.AddRazorPages();
-            services.AddCoreAdmin();
             services.AddDefaultIdentity<ApplicationUser>(options =>
             {
                 options.Password.RequireLowercase = false;
@@ -47,7 +45,10 @@ namespace TestApplication
             services.AddScoped<IQuiz, QuizRepoEf>();
             services.AddScoped<IAnswer, AnswerRepoEf>();
             services.AddScoped<IQuestion, QuestionRepoEf>();
+            services.AddRazorPages();
+            services.AddCoreAdmin();
         }
+
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
