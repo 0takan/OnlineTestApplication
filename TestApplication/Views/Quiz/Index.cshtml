@@ -9,31 +9,48 @@
 <script src="sweetalert2.all.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css">
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
 
 <script type="text/javascript">
     $(document).ready(function () {
         $(".btnalertMessage").click(function () {
-            swal("Privet")
+            Swal.fire({
+                title: 'Are you ready to start ?',
+                input: 'checkbox',
+                inputPlaceholder: 'I agree to start'
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    if (result.value) {
+                        Swal.fire({ icon: 'success', text: 'You agree with rules' });
+                    } else {
+                        Swal.fire({ icon: 'error', text: "Permission denied" });
+                    }
+                } else {
+                    console.log(`modal was dismissed by ${result.dismiss}`)
+                }
+            })
         });
-
     });
-
 </script>
 
 
 
 
 @{
-    foreach (var item in Model)
-    {
-        <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="@item.QuizImg" alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title">@item.QuizName</h5>
-                <p class="card-text">@item.Description</p>
-                <a href="#" class="btn btn-primary btnalertMessage">Start</a>
+    <div class="container" style="display: flex;">
+        @foreach (var item in Model)
+        {
+
+            <div class="card" style="width: 18rem; margin:8px;">
+                <img class="card-img-top" src="@item.QuizImg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">@item.QuizName</h5>
+                    <p class="card-text">@item.Description</p>
+                    <a href="#" class="btn btn-primary btnalertMessage">Start</a>
+                </div>
             </div>
-        </div>
-    }
+        }
+    </div>
+
 }

@@ -78,7 +78,7 @@ namespace TestApplication.Areas.Identity.Pages.Account
         {
             if (User.Identity.IsAuthenticated)
             {
-               Response.Redirect("/Home");
+               Response.Redirect("/Quiz");
             }
             //if (!User.Identity.IsAuthenticated)
             //{
