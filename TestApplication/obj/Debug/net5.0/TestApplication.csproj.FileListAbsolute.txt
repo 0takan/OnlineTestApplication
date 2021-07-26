@@ -521,3 +521,5 @@ D:\1\OnlineTestApplication\TestApplication\bin\Debug\net5.0\runtimes\win\lib\net
 D:\1\OnlineTestApplication\TestApplication\obj\Debug\net5.0\TestApplication.Views.pdb
 D:\1\OnlineTestApplication\TestApplication\obj\Debug\net5.0\TestApplication.csproj.CopyComplete
 D:\1\OnlineTestApplication\TestApplication\obj\Debug\net5.0\TestApplication.genruntimeconfig.cache
+D:\1\OnlineTestApplication\TestApplication\obj\Debug\net5.0\TestApplication.csproj.AssemblyReference.cache
+D:\1\OnlineTestApplication\TestApplication\obj\Debug\net5.0\Razor\Views\Quiz\Index.cshtml.g.cs
