@@ -55,4 +55,16 @@ namespace TestApplication.Areas.Identity.Data
         public string Content { get; set; }
         public List<Answer> Answers { get; set; }
     }
+    public class QuizTry2 {
+        public int Id { get; set; }
+        public string Question { get; set; }
+        public string option1 { get; set; }
+        public string option2 { get; set; }
+        public string option3 { get; set; }
+        public string option4 { get; set; }
+        public string Correctans { get; set; }
+
+
+    }
+
 }

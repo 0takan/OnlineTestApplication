@@ -17,7 +17,7 @@ namespace TestApplication.Data
         public DbSet<Answer> Answers { get; set; }
         public DbSet<Question> Questions { get; set; }
         public DbSet<Quiz> Quizzes { get; set; }
-
+        public DbSet<QuizTry2> QuizTry2s { get; set; }
         public AuthDbContext(DbContextOptions<AuthDbContext> options)
             : base(options)
         {
